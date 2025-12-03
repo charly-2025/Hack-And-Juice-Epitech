@@ -11,8 +11,23 @@ methodology :
 
 vulnerabilities :
 
-	vulnerability type : Broken
+	vulnerability type : Broken Acces Control - Insercure Direct Object Reference
+
+	affected compnonent : 
+		Review/Feedback
+		Database storing users'reviews
+
+	estimated severity : High
+		Because attackers can put what they want
 
 risks :
 
+	User identity theft : Attackers can make a review with any identity
+
+	Reputation damage : Fake reviews harm the platform's credibility
+
+	Loss of customer trust : Manipuling product feeback impacts customer perception
+
 actions :
+
+	Remove user ID field from the request : The user ID must be determined by the server
