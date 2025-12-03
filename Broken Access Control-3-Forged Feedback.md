@@ -1,7 +1,7 @@
 
 methodology : 
 
-	tools used : Burp (Proxy,Intercept)
+	Tools used : Burp (Proxy,Intercept)
 	
 	1. The first step is to launch the site, write a review on a product, and then prepare to send it.
 	
@@ -11,13 +11,13 @@ methodology :
 
 vulnerabilities :
 
-	vulnerability type : Broken Acces Control - Insercure Direct Object Reference
+	Tulnerability type : Broken Acces Control - Insercure Direct Object Reference
 
-	affected compnonent : 
+	Affected compnonent : 
 		Review/Feedback
 		Database storing users'reviews
 
-	estimated severity : High
+	Estimated severity : High
 		Because attackers can put what they want
 
 risks :
