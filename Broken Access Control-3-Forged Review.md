@@ -1,8 +1,8 @@
 
 methodology : 
 
-vulnerabilities:
+vulnerabilities :
 
-risks:
+risks :
 
-actions:
+actions :

@@ -1,8 +1,10 @@
 
 methodology : 
+	tools used :  Burp
+	
+	
+vulnerabilities :
 
-vulnerabilities:
+risks :
 
-risks:
-
-actions:
+actions :
