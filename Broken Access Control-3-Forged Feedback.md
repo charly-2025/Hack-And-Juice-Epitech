@@ -3,7 +3,7 @@ methodology :
 
 	Tools used : Burp (Proxy,Intercept)
 	
-	1. The first step is to launch the site, write a review on a product, and then prepare to send it.
+	1. The first step is to launch the site, write a feedback, and then prepare to send it.
 	
 	2. Just before sending it, activate Burp interception to retrieve the request.
 
@@ -14,19 +14,19 @@ vulnerabilities :
 	Tulnerability type : Broken Acces Control - Insercure Direct Object Reference
 
 	Affected compnonent : 
-		Review/Feedback
-		Database storing users'reviews
+		Feedback
+		Database storing feedback
 
 	Estimated severity : High
 		Because attackers can put what they want
 
 risks :
 
-	User identity theft : Attackers can make a review with any identity
+	User identity theft : Attackers can make a feedback with any identity
 
-	Reputation damage : Fake reviews harm the platform's credibility
+	Reputation damage : Fake feedback harm the platform's credibility
 
-	Loss of customer trust : Manipuling product feeback impacts customer perception
+	Loss of customer trust : Manipuling feeback impacts customer perception
 
 actions :
 
