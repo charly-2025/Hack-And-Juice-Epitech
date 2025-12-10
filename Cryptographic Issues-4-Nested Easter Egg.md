@@ -1,4 +1,4 @@
-
+c
 methodology : 
 
 	1. Open the easter egg file and copy the base64 encoded line

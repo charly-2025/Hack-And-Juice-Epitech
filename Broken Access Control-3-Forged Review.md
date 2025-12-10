@@ -1,4 +1,4 @@
-
+c
 methodology : 
 
 	Tools used : Burp (Proxy,Intercept)

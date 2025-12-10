@@ -1,4 +1,4 @@
-
+c
 methodology : 
 
 	Tool used : Burp(Target),Instagram
