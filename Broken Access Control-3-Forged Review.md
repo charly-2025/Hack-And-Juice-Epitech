@@ -11,8 +11,8 @@ methodology :
 
 vulnerabilities :
 
-	Tulnerability type : Broken Acces Control - Insercure Direct Object Reference
-
+	Vulnerability type : Broken Access Control - Insercure Direct Object Reference
+	
 	Affected compnonent : 
 		Review
 		Database storing users'reviews

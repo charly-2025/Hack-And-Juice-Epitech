@@ -11,6 +11,22 @@ methodology :
 	
 vulnerabilities :
 
+	Vulnerability type : Broken Access Control - Insercure Direct Object Reference
+	
+	Affected compnonent : 
+		Basket mangement update API
+		Database storing basket contents
+
+	Estimated severity : Critical
+		Because attackers can interfere with customer's shopping basket
+	
 risks :
 
+	Data integrity compromise : Basket content can be altered 
+
+	Financial impact : Unauthorized modifications may cause unexpected purchases
+
+	Loss of customer trust : Users may lose confidence in the platform
+
 actions :
+
