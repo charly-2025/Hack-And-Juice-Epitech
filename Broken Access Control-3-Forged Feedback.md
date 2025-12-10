@@ -1,4 +1,4 @@
-c
+
 methodology : 
 
 	Tools used : Burp (Proxy,Intercept)
@@ -30,4 +30,4 @@ risks :
 
 actions :
 
-	Remove user ID field from the request : The user ID must be determined by the server
+	Do not trust client-side identifiers : Derive sensitive IDs (basket, user, order) from the authenticated session, not from user input

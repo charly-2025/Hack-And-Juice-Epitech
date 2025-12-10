@@ -1,4 +1,4 @@
-c
+
 methodology : 
 
 	Tools used :  Burp (Proxy,HTTP history,Repeater)
@@ -30,3 +30,4 @@ risks :
 
 actions :
 
+	Do not trust client-side identifiers : Derive sensitive IDs (basket, user, order) from the authenticated session, not from user input
