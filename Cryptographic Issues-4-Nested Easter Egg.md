@@ -28,4 +28,4 @@ actions :
 
 	Remove unnecessary internal routes : Hidden paths should not be accessible
     
-	Apply proper cryptographic practices : use modern methods
+	Apply proper cryptographic practices : Use modern methods
