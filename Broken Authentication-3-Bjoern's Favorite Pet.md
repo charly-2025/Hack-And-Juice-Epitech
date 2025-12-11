@@ -17,7 +17,7 @@ vulnerabilities :
 		Password recovery feature    
 		Security question system
 
-	Estimated severity : Critical
+	Estimated severity : High
 		Because attackers can reset user's password account and then get user's account 
 
 risks :

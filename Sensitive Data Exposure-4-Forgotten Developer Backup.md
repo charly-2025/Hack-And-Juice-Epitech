@@ -1,10 +1,23 @@
-c
+
 methodology : 
 
-	1. Put this in url "https://ctf.juice.cyber.epitest.eu/ftp/package.json.bak%2500.md"
+	1. For get Backup you have to put this : "/ftp/package.json.bak%2500.md" in the url after the source url of your website 
 
 vulnerabilities :
 
+	Vulnerability type : Sensitive Data Exposure – Unprotected Backup File
+		
+	Affected compnonent : 
+		Web server file
+		
+	Estimated severity : High
+		Because attackers can retrieve sensitive information without authentification
+
 risks :
 
+	Leak of sensitive infomation
+	Application compromise if leaked data is reused by an attacker
+
 actions :
+
+	Disable access to sensitive path 
