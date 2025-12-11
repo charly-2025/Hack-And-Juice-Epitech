@@ -1,4 +1,4 @@
-c
+
 methodology : 
 
 	1. To redirect to an unauthorized page, put this "https://ctf.juice.cyber.epitest.eu/redirect?to=https://google.com/https://blockchain.info/address/1AbKfgvw9psQ41NbLi8kufDQTezwG8DRZm" in the url
