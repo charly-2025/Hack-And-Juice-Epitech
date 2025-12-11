@@ -1,4 +1,4 @@
-c
+
 methodology : 
 
 	Tool used : OSINT(Web browser)
@@ -13,6 +13,19 @@ methodology :
 
 vulnerabilities :
 
+	Vulnerability type : Sensitive Data Exposure – Predictable Password Pattern
+		
+	Affected compnonent : 
+		Authentification System
+		User account security
+
+	Estimated severity : High
+		Because attackers can access a real user account simply by deducing
+	
 risks :
 
+	 Account takeover : Attackers can fully access Amy's account and get all personal data
+
 actions :
+
+	Use two-factor-authentication
