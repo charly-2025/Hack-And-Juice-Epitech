@@ -1,0 +1,13 @@
+methodology : 
+
+	
+
+vulnerabilities :
+
+	
+risks :
+
+	 
+actions :
+
+	
