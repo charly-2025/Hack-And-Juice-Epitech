@@ -10,7 +10,12 @@ vulnerabilities :
 	
 risks :
 
+	-Access to unauthorized promotions
+
+	-Financial loss
 	 
 actions :
 
-	
+	-Injection in the settings
+
+	-Access to the special offer
