@@ -1,7 +1,7 @@
 
 methodology : 
 
-	2. For get Backup you have to put this : "ftp/suspicious_errors.yml%2500.md" in the url after the source url of your website 
+	1. For get Backup you have to put this : "ftp/suspicious_errors.yml%2500.md" in the url after the source url of your website 
 
 vulnerabilities :
 

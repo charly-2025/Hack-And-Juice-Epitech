@@ -1,7 +1,7 @@
 
 methodology : 
 
-	Tool used : Base64 decoder, Caesar cipher deocoder
+	Tool used : Base64 decoder, Caesar cipher decoder
 
 	1. Open the easter egg file and copy the base64 encoded line
 	
