@@ -1,4 +1,6 @@
 
+Objective : Apply some advanced cryptanalysis to find _the real_ easter egg.
+
 methodology : 
 
 	Tool used : Base64 decoder, Caesar cipher decoder

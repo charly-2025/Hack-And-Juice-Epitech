@@ -1,4 +1,6 @@
 
+Objective : Exfiltrate the entire DB schema definition via SQL Injection.
+
 methodology : 
 
 	Tools used : Burp (Proxy,HTTP history,Repeater)

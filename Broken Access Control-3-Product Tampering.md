@@ -1,4 +1,4 @@
-Objective : Change the `href` of the link within the [OWASP SSL Advanced Forensic Tool (O-Saft)](https://juice.cyber.epitest.eu/#/search?q=OWASP%20SSL%20Advanced%20Forensic%20Tool%20\(O-Saft\)) product description into  https://owasp.slack.com.
+Objective : Change the `href` of the link within the OWASP SSL Advanced Forensic Tool (O-Saft) product description into  https://owasp.slack.com.
 
 methodology : 
 

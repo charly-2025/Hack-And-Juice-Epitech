@@ -1,4 +1,6 @@
 
+Objective : Log in with Amy's original user credentials.
+
 methodology : 
 
 	Tool used : OSINT(Web browser)
