@@ -1,4 +1,6 @@
 
+Objective :  Reset the password of Bjoern's OWASP account via the Forgot Password mechanism with _the original answer_ to his security question.
+
 methodology : 
 
 	Tool used : Burp(Target), OSINT(Instagram)

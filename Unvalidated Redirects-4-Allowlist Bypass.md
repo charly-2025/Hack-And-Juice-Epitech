@@ -17,7 +17,7 @@ risks :
 
 	Phising attacks : Users can be redirected to fake login pages
 
-Malware distribution : The attacker can redirect to a virus installer
+	Malware distribution : The attacker can redirect to a virus installer
 
 actions :
 
