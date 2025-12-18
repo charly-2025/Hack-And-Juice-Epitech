@@ -1,4 +1,6 @@
 
+Objective : Put an additional product into another user's shopping basket.
+
 methodology : 
 
 	Tools used :  Burp (Proxy,HTTP history,Repeater)
@@ -14,7 +16,7 @@ vulnerabilities :
 	Vulnerability type : Broken Access Control - Insercure Direct Object Reference
 	
 	Affected compnonent : 
-		Basket mangement update API
+		Basket management update API
 		Database storing basket contents
 
 	Estimated severity : Critical

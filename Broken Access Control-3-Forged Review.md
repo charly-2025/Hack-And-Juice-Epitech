@@ -1,4 +1,6 @@
 
+Objective : Post a product review as another user or edit any user's existing review.
+
 methodology : 
 
 	Tools used : Burp (Proxy,Intercept)

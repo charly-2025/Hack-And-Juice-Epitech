@@ -1,4 +1,6 @@
 
+Objective : Post some feedback in another user's name.
+
 methodology : 
 
 	Tools used : Burp (Proxy,Intercept)
