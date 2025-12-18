@@ -3,6 +3,8 @@ Objective : Reset Morty's password via the Forgot Password mechanism with _hi
 
 methodology : 
 
+	Tools used :  Burp (Proxy,HTTP history,Intruder) PrudoHash
+
 	1. The first step is to find the answer to his security question. The question is “What is the name of his favorite animal?” Having seen the series, I know that his favorite animal is his dog named Croquette, but whose name has been changed to Snowball.
 
 	2. So we have the answer, but now we need to encrypt it in several ways. I used PsudoHash to obtain a text file with a wide variation of “Swonball.”
