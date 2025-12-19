@@ -9,7 +9,7 @@ methodology :
 
 	2. Paste the content into repeater, on top,after the "search?q=" add a this "apple'))UNION%20SELECT%20sql,2,3,4,5,6,7,8,9%20FROM%20sqlite_master--", this SQL payload forces the database to return the SQL schema of all tables.
 
-	3. Finaly, send the request.
+	3. Finaly, send the request. UNION is used to add another SQL query, 20% is used to add space. For UNION, it is important to have the same number of columns returned
 
 vulnerabilities :
 
