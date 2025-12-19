@@ -51,7 +51,7 @@ Each .md file documents **one challenge** and contains at least the following se
 - Severity estimation (Low / Medium / High / Critical)
 
 ### Risks
-- Business impact (data leakage, account takeover, reputational damage…)
+- Business impact, data leakage, account takeover, reputational damage…
 
 ### Actions
 - Mitigation strategies
