@@ -12,3 +12,24 @@ methodology :
 	3. Paste the content into repeater. After a few tests, I found the correct url to use. Instead of "rest/product/../reviews" put "api/product/.." and send the request to get the product data and descriptiion.
 
 	4.At the top of the request, replace GET with PUT. At the end, add "Content-Type: application/json", then skip a line and add the modified descripstion with the link you want in JSON format.
+
+vulnerabilities:
+
+    Vulnerability type : XSS – API-based XSS
+
+    Affected component :
+         API
+        Product Description
+
+    Estimated severity : High
+        Because malicious scripts can be executed with API
+
+risks:
+
+    Malicious actions : Injected scripts can perform attack on the website
+    
+    Reputation damage : Users exposed to malicious content lose trust in the platform
+
+actions:
+
+    Role Check : Ensure that you must be an admin to make sensitive request

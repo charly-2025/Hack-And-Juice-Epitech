@@ -32,5 +32,4 @@ actions :
 
 	Implement parameterized queries : Prepare the queries that will be made to the database
 
-
 	Filter and validate user input : Only allow safe character for the search parameter
