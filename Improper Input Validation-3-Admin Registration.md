@@ -2,7 +2,7 @@ methodology :
 
 	1-Go to the registration page of the Juice Shop app.
 
-	2-Fill in the form with valid information (email, password, etc.).
+	2-Fill in the form with valid information (email, password, etc).
 
 	3-Before submitting the form, intercept the HTTP request with Burp Suite.
 

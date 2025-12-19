@@ -1,29 +1,30 @@
 methodology : 
 	
-	go on login fill in the information with anything, see on Burp the response to the post on http history and use the domain as the address "bender@juice-sh.op'-" and with anything as a password and finally press login
+	1-Access the login page.
 
-	-Analysis of the login form
-
-	I-njection tests
-
-	-Observation of server responses
+	2-Identify the parameters sent during authentication.
+	
+	3-Inject a suitable SQL load into the login field.
+	
+	4-Analyze the server response.
+	
+	5-Validate access to the Bender account.
+	
+	Techniques used: SQL injection 
+	Tools: Browser, Burp Suite
 
 vulnerabilities :
 
-	-SQL Injection
-
-	-Absence of prepared queries
-
+	SQL Injection
+	Poor management of SQL errors
+	Severity: High
 risks :
 
-	-Unauthorized access
-
-	-Compromise of accounts
+	Taking control of accounts
+	Potential escalation to high privileges
 
 actions :
 
-	-Insertion of an SQL payload
-
-	-Bypass of authentication
-
-	-Account access
+	Prepared queries
+	Secure error handling
+	Logging of suspicious attempts

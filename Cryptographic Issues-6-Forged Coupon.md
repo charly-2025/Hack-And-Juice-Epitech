@@ -1,27 +1,29 @@
 methodology : 
 
-	-Analysis of the coupon format
+	1-Analyze the structure of the coupon.
 
-	-Test of manual modification
-
-	-Observation of the signature
-
+	2-Identify the modifiable data.
+	
+	3-Modify the values of the coupon.
+	
+	4-Test the validity.
+	
+	5-Validate the acceptance of the coupon.
+	
+	Techniques used: Data falsification 
+	Tools: Browser, Burp Suite
 vulnerabilities :
 
-	-Absence or weakness of cryptographic signature
-
-	-Unprotected customer data
-
+	Unprotected customer data
+	Absence of strong cryptographic signature
+	
+	Severity: High
 risks :
 
-	-Creation of fraudulent coupons
-
-	-Significant financial loss
+	Creation of fraudulent coupons
+	Significant financial loss
 
 actions :
 
-	-Coupon analysis
-
-	-Modification of values
-
-	-Generation of a valid coupon
+	Robust cryptographic signature
+	Server-side integrity check
