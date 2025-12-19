@@ -1,8 +1,16 @@
 
+Objective :  Access a developer's forgotten backup file.
+
 methodology : 
 
-	1. For get Backup you have to put this : "/ftp/package.json.bak%2500.md" in the url after the source url of your website 
+	1. The first step is to access the confidential documents page.
 
+	2. When we click on packake.json, we get an error because only .md and .pdf formats are allowed.
+
+	3. Since we couldn't open the file on the website, I tried to download it. But that's not allowed either.
+
+	4. The solution is therefore to download the file, but in .md format. To obtain the file, simply click on it and add “%2500.md” to the URL. On the FTP page, you can add “package.json.bak%2500.md” to the URL.
+	
 vulnerabilities :
 
 	Vulnerability type : Sensitive Data Exposure – Unprotected Backup File
