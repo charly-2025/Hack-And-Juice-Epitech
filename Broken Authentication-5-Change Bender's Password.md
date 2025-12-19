@@ -15,11 +15,21 @@ methodology :
 
 vulnerabilities :
 
+	Vulnerability type : Broken Authentication – Missing Verification of Current Password
 
-	
+	Affected component :
+		 Password change mechanism
+	    User account
+    
+	Estimated severity : Critiacl  
+	Because an attacker can change a user’s password without knowing the current one
+
 risks :
 
+	Account takeover : An attacker can change the victim’s password and lock them out of their account.
 	
-	 
+	Loss of confidentiality : Unauthorized access to personal data and account information.
+
 actions :
 
+	Enforce current password verification : The server must always validate the current password before allowing a password change.
