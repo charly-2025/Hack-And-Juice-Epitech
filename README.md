@@ -17,11 +17,6 @@ Security assessment of **OWASP Juice Shop**, a deliberately vulnerable e-commerc
 
 `Burp Suite` · `SQLMap` · `Postman` · `John the Ripper` · `OWASP Top 10`
 
-## Team
-
-- Charly Richard-Fromont
-- Noa Loussouarn
-
 ---
 
 ## Technical documentation
@@ -50,7 +45,6 @@ Each group member was required to solve and document **more than 10 challenges o
 ### Repo Structure
 
 All documentation files are located at the **root of the repository** and strictly follow the required naming convention:
-
 
 categoryName-difficultyLevel-challengeName.md
 
