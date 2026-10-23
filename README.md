@@ -88,7 +88,3 @@ All documentation was written using **Obsidian**, which allows for:
 - All documents to be in .md format as requested
 - Consistent formatting and organization
 - A very simple and effective synchronization system with the git repo
-
----
-
-More of my work on my [portfolio](https://charly-2025.github.io/myPortfolio/).
