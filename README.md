@@ -1,6 +1,34 @@
-# OWASP Juice Shop – HACK & JUICE project
+# Hack & Juice: OWASP Juice Shop
 
-## Project Overview
+> Built at **Epitech Rennes** · B-SEC-100 · Cybersecurity · December 2025
+
+## Overview
+
+Security assessment of **OWASP Juice Shop**, a deliberately vulnerable e-commerce application. Every solved challenge (difficulty 3 and above) is documented like a pentest report: methodology, vulnerability, impact and remediation.
+
+## Features
+
+- Exploitation of OWASP Top 10 flaws: SQL injection, XSS, broken access control, sensitive data exposure, vulnerable components...
+- One Markdown write-up per challenge, named `category-difficulty-name.md`
+- Step-by-step methodology and tooling for each exploit
+- Remediation recommendations
+
+## Tech stack
+
+`Burp Suite` · `SQLMap` · `Postman` · `John the Ripper` · `OWASP Top 10`
+
+## Team
+
+- Charly Richard-Fromont
+- Noa Loussouarn
+
+---
+
+## Technical documentation
+
+## OWASP Juice Shop, HACK & JUICE project
+
+### Project Overview
 
 This repository contains the documentation and analysis of multiple security challenges solved on **OWASP Juice Shop**.
 
@@ -10,7 +38,7 @@ Each group member was required to solve and document **more than 10 challenges o
 
 ---
 
-## Objectives
+### Objectives
 
 - Exploit vulnerabilities across multiple OWASP Top 10 categories  
 - Put real attack testing techniques into practice (manual and tool-assisted)
@@ -19,14 +47,14 @@ Each group member was required to solve and document **more than 10 challenges o
 
 ---
 
-## Repo Structure
+### Repo Structure
 
 All documentation files are located at the **root of the repository** and strictly follow the required naming convention:
 
 
 categoryName-difficultyLevel-challengeName.md
 
-### Examples:
+#### Examples:
 - `Broken Access Control-3-CSRF.md`
 - `Broken Authentication-4-Login Bjoern.md`
 
@@ -36,35 +64,37 @@ Invalid examples:
 
 ---
 
-## Documentation Methodology
+### Documentation Methodology
 
 Each .md file documents **one challenge** and contains at least the following sections:
 
-### Methodology
+#### Methodology
 - Step-by-step exploitation process
 - Techniques used (OSINT, enumeration, brute force, code analysis, etc.)
 - Tools involved (Burp Suite, browser dev tools, SQLMap, scripts, wordlists…)
 
-### Vulnerability
+#### Vulnerability
 - Vulnerability name (e.g. SQL Injection, XSS, Misconfiguration, CWE)
 - Affected component (authentication, database, API, client-side logic…)
 - Severity estimation (Low / Medium / High / Critical)
 
-### Risks
+#### Risks
 - Business impact, data leakage, account takeover, reputational damage…
 
-### Actions
+#### Actions
 - Mitigation strategies
 - Secure coding recommendations
 - Best practices and remediation fixes
 
 ---
 
-## Managing documentation with Obsidian
+### Managing documentation with Obsidian
 
 All documentation was written using **Obsidian**, which allows for:
 - All documents to be in .md format as requested
 - Consistent formatting and organization
 - A very simple and effective synchronization system with the git repo
 
+---
 
+More of my work on my [portfolio](https://charly-2025.github.io/myPortfolio/).
